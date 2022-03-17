@@ -26,17 +26,13 @@ $ git commit -m “commit inicial”
 
 $ echo > (nome do arquivo a ser criado)
 
-Git Init
-
-Tracked and Untracked
-
 $ git config –global user.email
 
 $ git config  --globaluser.name 
 
 $ git config –list
 
-Para colocar o nosso repositório local para o repositórioremoto
+Para colocar o nosso repositório local para o repositório remoto
 
 Para conseguir fazer isto temos que adicionar a origem
 
@@ -48,4 +44,4 @@ $git pull origin master (puxa o repositório para sua máquina)
 
 $git clone (endereço de repositório a ser clonado)
 
- 
+ $ git push origin main
